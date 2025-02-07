@@ -3,16 +3,17 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a1919;
-    min-width: 100vw; 
-    border-bottom: 2px solid #FFD700;
+    background-color: var(--cor-saturada);
+    width: 100%; 
+    border-bottom: 2px solid var(--cor-dourada);
 }
 
 .cabecalho .logo{
-    min-width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     margin-left: 200px;
+    opacity: 0;
     
 }
 
@@ -21,26 +22,19 @@
     height: 250px;
 }
 
-.cabecalho .nome{
-    padding-left: 50px;
-    font-size: 4.5rem;
-    width: 100px;
-    font-weight: 400;
-}
-
 .cabecalho .segmento{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 400px;
-    width: 600px;
+    margin-left: 300px;
+    width: 700px;
 }
 
 .cabecalho .segmento .titulo-segmento{
     margin-top: 70px;
     font-size: 5rem;
     font-weight: 100;
-    width: 850px;
+    width: 900px;
     padding-bottom: 30px;
 }
 
@@ -52,7 +46,6 @@
     justify-content: center;
     width: 100%;
     height: 100px;
-    /* background-color: aqua; */
     cursor: pointer;
 }
 
@@ -81,9 +74,86 @@
 }
 
 a:visited {
-    color: #ffffff;
+    color: var(--cor-branca);
 }
 
 a:hover {
-    color: #FFD700;
+    color: var(--cor-dourada);
 }
+
+.menu-secoes{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+    height: 200px;
+    margin-left: 2%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12%;
+    font-size: 2rem;
+    gap: 20px;
+    width: 250px;
+    border-radius: 15px;
+    color: var(--cor-branca);
+
+}
+
+
+.menu li{
+    color: var(--cor-branca);
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--cor-preto-claro);
+    position: relative;
+    overflow: hidden; /* Oculta o preenchimento fora dos limites */
+    
+  }
+
+  .menu li a{
+    display: block; /* Transforma o link em um elemento de bloco */
+    width: 100%;
+    position: relative; /* Garante que o texto fique sobre o ::before */
+    z-index: 5;
+    transition: color 0.4s ease-in-out; /* Transição suave na cor do texto */
+   
+  }
+
+  .menu li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Fora da tela inicialmente */
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #FFD700, #c7cf12); 
+    z-index: 0;
+    transition: left 0.4s ease-in-out;
+    color: var(--cor-branca);
+}
+
+.menu li:hover::before {
+    left: 0; /* Anima da esquerda para preencher */
+}
+
+.menu li:hover a {
+    color: var(--cor-preto-claro); /* Contraste após o preenchimento */
+    font-weight: 700;
+}
+
+  .menu a:visited{
+    color: var(--cor-branca);
+    
+  }
+
+
+
+
+

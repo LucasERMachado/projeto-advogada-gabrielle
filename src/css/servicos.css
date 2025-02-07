@@ -1,0 +1,110 @@
+.servicos{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1850px;
+    background-color: #1a1919;
+    border-bottom: 2px solid #FFD700;
+    width: 100%;
+}
+
+.servicos span{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #FFD700;
+}
+
+.servicos h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.linha-servico{
+    margin-top: 30px;
+}
+
+
+.servicos .container-servicos{
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    margin-top: 50px;
+    gap: 60px;
+    
+}
+
+.imagem-servico{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.titulo-servico{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.titulo-servico.titulo-longo{
+    width: 95%;
+}
+
+.lista-servico{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.item-servico{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.container-servicos-baixo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.container-servicos-baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 550px;
+}
+.servicos-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.mais-servicos{
+    display: flex;
+    gap: 60px;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.descricao-geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: #303030;
+    border: 1px solid #FFD700;
+    border-radius: 15px;
+}

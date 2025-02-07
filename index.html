@@ -12,10 +12,17 @@
         rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/nav.css">
+    <link rel="stylesheet" href="src/css/conteudo-inicial.css">
+    <link rel="stylesheet" href="src/css/servicos.css">
+    <link rel="stylesheet" href="src/css/expertise.css">
+    <link rel="stylesheet" href="src/css/explicacao.css">
+    <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/estilos.css">
     <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
-    <title>Gabriele Roque Advocacia</title>
+    <link rel="stylesheet" href="src/css/animacoes.css">
+
+    <title>Gabriele Roque Advogados Associados</title>
     <link rel="icon" type="image/x-icon" href="src/images/logo-site-favicon-32x32.png">
 </head>
 
@@ -24,211 +31,333 @@
     <header class="cabecalho">
         <div class="logo">
             <img src="src/images/logo-site.png" alt="Logo do site" class="imagem-logo">
-
-            <h2 class="nome">Gabriele Roque</h2>
-
             <div class="segmento">
-                <h1 class="titulo-segmento">Gabriel Roque Advogados Associados</h1>
-
-                <nav class="navegacao">
+                <h1 class="titulo-segmento">Gabriele Roque Advogados Associados</h1>
+                <div class="navegacao">
                     <ul class="lista-nav">
                         <a href="https://wa.me/5519981460718" target="_blank">
                             <li class="item-nav">Whatsapp</li>
                         </a>
-
                         <a href="https://www.linkedin.com/in/gabrielle-roque-67473014a" target="_blank">
                             <li class="item-nav">Linkedin</li>
                         </a>
-
                         <a href="#">
                             <li class="item-nav">Instagram</li>
                         </a>
-
                         <a href="#">
                             <li class="item-nav">X (twitter)</li>
                         </a>
                     </ul>
                     <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
                     <ul class="lista-icone">
-
                         <a href="https://wa.me/5519981460718" target="_blank">
                             <li class="icone-navegacao">
                                 <i class="fab fa-whatsapp icone"></i>
                             </li>
                         </a>
-
                         <a href="https://www.linkedin.com/in/gabrielle-roque-67473014a" target="_blank">
                             <li class="icone-navegacao">
                                 <i class="fa-brands fa-linkedin-in icone"></i>
                             </li>
                         </a>
-
                         <a href="#">
                             <li class="icone-navegacao">
                                 <i class="fa-brands fa-instagram icone"></i>
                             </li>
                         </a>
-
                         <a href="#">
                             <li class="icone-navegacao">
                                 <i class="fa-brands fa-x-twitter icone"></i>
                             </li>
                         </a>
-
                     </ul>
-                </nav>
+                </div>
             </div>
+            <nav class="menu-secoes">
+                <ul class="menu">
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#explicacao">Meu trabalho</a></li>
+                    <li><a href="#fale-comigo">Contato</a></li>
+            </nav>
+        </div>
         </div>
     </header>
-
     <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
 
-    <main class="container">
+    <main class="container" id="sobre">
         <article class="apresentacao">
-
             <section class="sobre">
-                <img src="src/images/foto.jpg" alt="Foto" class="foto">
-
+                <img src="src/images/foto-gabi-sem-fundo.png" alt="Foto" class="foto">
                 <div class="conteudo-sobre">
                     <span>Sobre a advogada</span>
-
                     <h2>Gabriele Roque</h2>
-
                     <div class="linha"></div>
-
-                    <p>Advogada apaixonada pelo direito trabalhista, atua há 3 anos defendendo os direitos dos
-                        trabalhadores com dedicação e empatia. Graduada em Direito pela renomada PUC Campinas, sua
-                        formação sólida e experiência prática a capacitam a oferecer soluções personalizadas e
-                        eficazes para cada caso.</p>
-
+                    <p>Advogada com 3 anos de experiência atuando nos segmentos de Direito Trabalhista e Direito Civil,
+                        com ênfase em Direito de Família. Bacharelada em Direito pela PUC Campinas, ofereço serviços
+                        jurídicos com ética, transparência e excelência e assertividade, proporcionando soluções seguras
+                        e eficientes que resguardem os direitos e interesses dos clientes. </p>
                     <a href="https://wa.me/5519981460718" target="_blank" class="botao-whatsapp">
                         <i class="fab fa-whatsapp icone"></i> Clique aqui para entrar em contato</a>
                 </div>
             </section>
         </article>
 
-
-        <article class="servicos">
-            <span>Serviços</span>
-
-            <h2>Posso te ajudar?</h2>
-
-            <span class="linha linha-servico"></span>
-
+        <!-- ------------------------------------------------------ -->
+        <article class="servicos" id="servicos">
+            <span class="titulo-servicos escondido-fadein">Serviços</span>
+            <h2 class="subtitulo-servicos escondido-fadein">Posso te ajudar?</h2>
+            <span class="linha linha-servico escondido-direita"></span>
             <section class="container-servicos">
-
-                <div class="descricao-servico-1 descricao-geral">
+                <div class="descricao-servico-1 descricao-geral escondido-cartao-servico esconde-cartao">
                     <img src="src/images/consultoria-juridica.jpg" alt="Imagem Consultoria Jurídica"
                         class="imagem-servico">
-
                     <h3 class="titulo-servico">Consultoria Jurídica</h3>
-
                     <ul class="lista-servico">
                         <li class="item-servico">➡️ Ofereço análise de contratos de trabalho;</li>
-
                         <li class="item-servico">➡️ Orientação sobre direitos e deveres de empregados e empregadores;
                         </li>
-
                         <li class="item-servico">➡️ Elaboração de acordos e contratos;</li>
-
                         <li class="item-servico">➡️ Consultoria sobre legislação trabalhista.</li>
                     </ul>
-
-                </div>
-
-                <div class="descricao-servico-2 descricao-geral">
-                    <img src="src/images/processo-trabalhista.webp" alt="Imagem Processo Jurídico"
-                        class="imagem-servico">
-
-                    <h3 class="titulo-servico">Processos trabalhistas</h3>
-
-                    <ul class="lista-servico">
-                        <li class="item-servico">➡️ Acompanhamento de processos judiciais;</li>
-
-                        <li class="item-servico">➡️ Elaboração de petições e recursos;</li>
-
-                        <li class="item-servico">➡️ Negociação de acordos;</li>
-
-                        <li class="item-servico">➡️ Defesa em audiências.</li>
-                    </ul>
-
                     <div class="container-servicos-baixo">
                         <div class="descricao-servico-5 descricao-geral">
                             <img src="src/images/acidente-trabalho.jpg" alt="Imagem Rescisão contratual"
                                 class="imagem-servico">
-
                             <h3 class="titulo-servico titulo-longo">Acidentes de trabalho</h3>
-
                             <ul class="lista-servico">
                                 <li class="item-servico">➡️ Acompanhamento de processos de indenização;</li>
-
                                 <li class="item-servico">➡️ Auxílio na obtenção de benefícios previdenciários.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="descricao-servico-3 descricao-geral">
-                    <img src="src/images/rescisao-contratual.jpg" alt="Imagem Rescisão contratual"
+                <div class="descricao-servico-2 descricao-geral esconde-cartao">
+                    <img src="src/images/processo-trabalhista.webp" alt="Imagem Processo Jurídico"
                         class="imagem-servico">
-
-                    <h3 class="titulo-servico">Rescisão contratual</h3>
-
+                    <h3 class="titulo-servico">Processos trabalhistas</h3>
                     <ul class="lista-servico">
-                        <li class="item-servico">➡️ Acompanhamento de processos de demissão;</li>
-
-                        <li class="item-servico">➡️ Cálculo de verbas rescisórias;</li>
-
-                        <li class="item-servico">➡️ Negociação de acordos.</li>
+                        <li class="item-servico">➡️ Acompanhamento de processos judiciais;</li>
+                        <li class="item-servico">➡️ Elaboração de petições e recursos;</li>
+                        <li class="item-servico">➡️ Negociação de acordos;</li>
+                        <li class="item-servico">➡️ Defesa em audiências.</li>
                     </ul>
-
                     <div class="container-servicos-baixo">
                         <div class="descricao-servico-6 descricao-geral">
                             <img src="src/images/acoes-trabalhistas.jpg" alt="Imagem Rescisão contratual"
                                 class="imagem-servico">
-
                             <h3 class="titulo-servico titulo-longo">Horas extras, férias, 13º salário:</h3>
-
                             <ul class="lista-servico">
                                 <li class="item-servico">➡️ Cálculo e cobrança de valores devidos;</li>
-
                                 <li class="item-servico">➡️ Defesa em ações trabalhistas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
-                <div class="descricao-servico-4 descricao-geral">
+                <div class="descricao-servico-3 descricao-geral esconde-cartao">
+                    <img src="src/images/rescisao-contratual.jpg" alt="Imagem Rescisão contratual"
+                        class="imagem-servico">
+                    <h3 class="titulo-servico">Rescisão contratual</h3>
+                    <ul class="lista-servico">
+                        <li class="item-servico">➡️ Acompanhamento de processos de demissão;</li>
+                        <li class="item-servico">➡️ Cálculo de verbas rescisórias;</li>
+                        <li class="item-servico">➡️ Negociação de acordos.</li>
+                    </ul>
+                    <div class="container-servicos-baixo">
+                        <div class="descricao-servico-7 descricao-geral">
+                            <img src="src/images/contrato.jpg" alt="Imagem Rescisão contratual" class="imagem-servico">
+                            <h3 class="titulo-servico titulo-longo">Contratos:</h3>
+                            <ul class="lista-servico">
+                                <li class="item-servico">➡️ Elaboração, análise e revisão de contratos (compra e venda,
+                                    locação, prestação de serviços).</li>
+                                <li class="item-servico">➡️ DRepresentação em casos de descumprimento contratual.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="descricao-servico-4 descricao-geral esconde-cartao">
                     <img src="src/images/assedio.webp" alt="Imagem Rescisão contratual" class="imagem-servico">
-
                     <h3 class="titulo-servico titulo-longo">Assédio moral e sexual no trabalho</h3>
-
                     <ul class="lista-servico">
                         <li class="item-servico">➡️ Orientação e acompanhamento em casos de assédio;</li>
-
                         <li class="item-servico">➡️Representação em processos.</li>
                     </ul>
+                    <div class="container-servicos-baixo">
+                        <div class="descricao-servico-8 descricao-geral esconde-cartao">
+                            <img src="src/images/danos-morais.jpg" alt="Imagem Rescisão contratual"
+                                class="imagem-servico">
+                            <h3 class="titulo-servico titulo-longo"> Responsabilidade Civil</h3>
+                            <ul class="lista-servico">
+                                <li class="item-servico">➡️ Ações de indenização por danos morais, materiais e
+                                    estéticos.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-        </article>
+            <!-- ---------------------------------------------------------------- -->
 
+            <section class="servicos-2">
+                <section class="mais-servicos">
+                    <div class="descricao-servico-9 descricao-geral esconde-cartao">
+                        <img src="src/images/sucessoes.jpg" alt="Imagem suscessão" class="imagem-servico">
+                        <h3 class="titulo-servico titulo-longo">Direito das Sucessões</h3>
+                        <ul class="lista-servico">
+                            <li class="item-servico">➡️ Testamentos, inventários e partilhas;</li>
+                            <li class="item-servico">➡️ Assessoria em planejamento sucessório.</li>
+                        </ul>
+                    </div>
+                    <div class="mais-servicos">
+                        <div class="descricao-servico-10 descricao-geral esconde-cartao">
+                            <img src="src/images/direito-imobiliario.webp" alt="Imagem Direito Imobiliário"
+                                class="imagem-servico">
+                            <h3 class="titulo-servico titulo-longo">Direito Imobiliário</h3>
+                            <ul class="lista-servico">
+                                <li class="item-servico">➡️ Regularização de imóveis, ações de despejo e reintegração de
+                                    posse.</li>
+                            </ul>
+                        </div>
+                        <div class="mais-servicos">
+                            <div class="descricao-servico-11 descricao-geral esconde-cartao">
+                                <img src="src/images/cobranca-execucao.webp" alt="Imagem Direito de Sucessões"
+                                    class="imagem-servico">
+                                <h3 class="titulo-servico titulo-longo">Cobranças e Execuções</h3>
+                                <ul class="lista-servico">
+                                    <li class="item-servico">➡️ Cobrança judicial de dívidas;</li>
+                                    <li class="item-servico">➡️ notificações extra judiciais;</li>
+                                    <li class="item-servico">➡️ Negociação de acordos e execuções de títulos de crédito.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mais-servicos">
+                                <div class="descricao-servico-12 descricao-geral esconde-cartao">
+                                    <img src="src/images/direito-consumidor.webp" alt="Imagem Direito do consumidor"
+                                        class="imagem-servico">
+                                    <h3 class="titulo-servico titulo-longo">Direito do Consumidor</h3>
+                                    <ul class="lista-servico">
+                                        <li class="item-servico">➡️ Ações contra empresas por defeitos de produtos,
+                                            serviços ou abusos contratuais;</li>
+                                        <li class="item-servico">➡️ Planos de saúde/Remédio de alto custo
+                                        </li>
+                                        <li class="item-servico">➡️ Indenização por atraso/cancelamento de voo ou
+                                            extravio de bagagem.</li>
+                                    </ul>
+                                </div>
+                </section>
+        </article>
+        <article class="expertise escondido" id="expertise">
+            <section class="minha-expertise">
+                <div class="conteudo-expertise">
+                    <span class="titulo-expertise escondido-fadein">Minha expertise</span>
+                    <h2 class="subtitulo-expertise escondido-fadein">Direito da Família</h2>
+                    <div class="linha escondido-direita"></div>
+                    <p class="texto-expertise escondido-fadein">Ofereço assessoria especializada em Direito de Família,
+                        atuando com sensibilidade e
+                        profissionalismo em questões que envolvem relações familiares. Com uma abordagem humanizada,
+                        busco a melhor solução para meus clientes em momentos delicados e decisivos.</p>
+                    <span class="servicos-inclusos escondido-direita">Os serviços incluem:</span>
+                    <div class="tabela-expertise">
+                        <ul class="cartao-tabela">
+                            <li class="conteudo-cartao-expertise escondido-esquerda">
+                                <p>Processos de divórcio consesual e litigioso</p>
+                                <div class="linha escondido-esquerda"></div>
+                            </li>
+                            <li class="conteudo-cartao-expertise escondido-esquerda">
+                                <p>Ações de pensão alimentícia, revisões e exonerações</p>
+                                <div class="linha escondido-esquerda"></div>
+                            </li>
+                            <li class="conteudo-cartao-expertise escondido-esquerda">
+                                <p>Reconhecimento e dissolução de uniões estáveis</p>
+                                <div class="linha escondido-esquerda"></div>
+                            </li>
+                            <li class="conteudo-cartao-expertise escondido-esquerda">
+                                <p>Assessoria em inventários e partilhas de bens</p>
+                                <div class="linha escondido-esquerda"></div>
+                            </li>
+                            <li class="conteudo-cartao-expertise escondido-esquerda">
+                                <p>Orientação em planejamento familiar e sucessório</p>
+                                <div class="linha escondido-esquerda"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5519981460718" target="_blank"
+                        class="botao-whatsapp btn-servico btn-expertise escondido-esquerda">
+                        <i class="fab fa-whatsapp icone"></i> Clique aqui para entrar em contato</a>
+            </section>
+        </article>
 
         <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
-        <section class="explicacao">
-
-        </section>
-
+        <article class="explicacao" id="explicacao">
+            <span class="escondido-fadein">Como eu trabalho?</span>
+            <h2 class="escondido-fadein">Prestando suporte com empatia</h2>
+            <div class="linha escondido-direita"></div>
+            <section class="container-como-trabalho">
+                <div class="orientacao quadrado-explicacao esconde-cartao">
+                    <i class="fa-solid fa-handshake icone-explicacao"></i>
+                    <h3 class="forma-de-trabalho">Orientação</h3>
+                    <div class="linha"></div>
+                    <p class="descricao-forma-de-trabalho">Ofereço orientação jurídica com análise detalhada e suporte
+                        personalizado, garantindo segurança
+                        nas decisões e soluções eficientes para cada situação.</p>
+                </div>
+                <div class="acompanhamento quadrado-explicacao esconde-cartao">
+                    <i class="fa-solid fa-file-circle-question icone-explicacao"></i>
+                    <h3 class="forma-de-trabalho">Acompanhamento</h3>
+                    <div class="linha"></div>
+                    <p class="descricao-forma-de-trabalho">Acompanharei cada etapa do seu processo, esclarecendo dúvidas
+                        e orientando sobre os próximos
+                        passos com total transparência.</p>
+                </div>
+                <div class="resolucao quadrado-explicacao esconde-cartao">
+                    <i class="fa-solid fa-file-circle-check icone-explicacao"></i>
+                    <h3 class="forma-de-trabalho">Resolução</h3>
+                    <div class="linha"></div>
+                    <p class="descricao-forma-de-trabalho">Tenho total foco nas necessidades de meus clientes, prezando
+                        sempre por resultados positivos
+                        independente da complexidade de cada caso.</p>
+                </div>
+            </section>
+        </article>
         </article>
     </main>
 
-    <footer class="fale-comigo">
+    <footer class="fale-comigo" id="fale-comigo">
+        <div class="container-footer">
+            <div class="contato">
+                <img src="./src/images/foto-gabi-sem-fundo.png" alt="Foto" class="foto-footer escondido-esquerda">
+                <div class="descricao-contato">
+                    <h3 class="titulo-contato escondido-direita">Entre em contato comigo pelos meios abaixo:</h3>
+                    <div class="linha escondido-esquerda"></div>
+                    <a href="tel:+5519981460718" class="contatos escondido-direita"><i
+                            class="fa-solid fa-phone icone-contato"></i> 19
+                        98146-0718</a>
+                    <a href="mailto:gabrielleroque@outlook.com" class="contatos escondido-direita"><i
+                            class="fa-regular fa-envelope icone-contato"></i> gabrielleroque@outlook.com</a>
+                    <a href="https://wa.me/5519981460718" target="_blank"
+                        class="botao-whatsapp btn-contato escondido-direita">
+                        <i class="fab fa-whatsapp icone"></i> Fale com a advogada</a>
+                </div>
+                <div class="localizacao">
+                    <span class="escritorio escondido-direita">Meu escritório:</span>
+                    <div class="linha escondido-esquerda"></div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4522.915729229517!2d-47.041213623807245!3d-22.885084937097552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf6072717227%3A0x48d8aaf0419eb219!2sR.%20Monte%20Azul%2C%20281%20-%20Ch%C3%A1cara%20da%20Barra%2C%20Campinas%20-%20SP%2C%2013090-765!5e1!3m2!1spt-BR!2sbr!4v1738281491169!5m2!1spt-BR!2sbr"
+                        class="maps escondido-direita" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <span class="horario-atendimento escondido-direita">Horário de atendimento: 08:00 às 18:00</span>
+                </div>
+            </div>
 
+        </div>
     </footer>
+    <section class="direitos-autorais">
+        <p>Gabriele Roque Advogados Associados © TODOS OS DIREITOS RESERVADOS</p>
+    </section>
 
-
+    <script src="./src/js/animacoes.js"></script>
+    <script src="./src/js/nav.js"></script>
 </body>
-
 </html>

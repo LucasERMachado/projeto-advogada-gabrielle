@@ -1,0 +1,89 @@
+.expertise{   
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    height: 950px;
+    border-bottom: 3px solid #FFD700;
+}
+
+.servicos-inclusos{
+    margin-top: 50px;
+}
+
+.minha-expertise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.conteudo-expertise{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-expertise span{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #FFD700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.conteudo-expertise p{
+    font-size: 2.5rem;
+    text-align: justify;
+    margin-top: 30px;
+    text-align: center;
+    width: 60%;
+}
+
+.conteudo-expertise h2{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.tabela-expertise{
+    /* background-color: aqua; */
+    display: flex;
+    text-align: center;
+    height: 300px;
+    margin-top: 10px;
+    width: 95%;
+}
+
+.tabela-expertise .cartao-tabela{
+    display: flex;
+   align-items: center;
+   gap: 20px;
+   
+}
+
+.cartao-tabela .conteudo-cartao-expertise{
+    border: 1px solid #FFD700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 50px;
+
+}
+
+.cartao-tabela .conteudo-cartao-expertise p{
+    font-size: 2rem;
+}
+
+.descricao-familia .item-familia{
+    font-size: 1.8rem;
+}
+
+.btn-expertise{
+    margin-top: 50px;
+    width: 500px;
+}

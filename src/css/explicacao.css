@@ -1,0 +1,73 @@
+.explicacao{
+    background-image: url(../images/fundo-secao-explicacao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-verde);
+    border-bottom: 3px solid var(--cor-dourada);
+}
+
+
+.explicacao span{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: var(--cor-dourada);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.explicacao h2{
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.container-como-trabalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    height: 700px;
+
+}
+
+.container-como-trabalho .quadrado-explicacao{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(105deg, rgba(24,24,24,1) 0%, rgba(24,24,24,0.923406862745098) 50%, rgba(24,24,24,1) 100%);
+    border: 2px solid var(--cor-dourada);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 30px;
+    
+}
+
+.container-como-trabalho .quadrado-explicacao .icone-explicacao{
+    font-size: 4.5rem;
+    color: var(--cor-dourada);
+}
+
+.container-como-trabalho .quadrado-explicacao h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.container-como-trabalho .quadrado-explicacao p{
+    font-size: 2rem;
+    text-align: center;
+    width: 95%;
+
+}

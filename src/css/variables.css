@@ -1,0 +1,11 @@
+:root{
+    --cor-dourada: #FFD700;
+    --rgba-cor-dourada: rgba(255, 215, 0, 1);
+    --cor-verde: #1CA26C;
+    --cor-branca: #ffffff;
+    --cor-rosa: #DA70D6;
+    --cor-preta: #0c0c0c;
+    --rgba-cor-cinza-escuro: rgba(255, 255, 255, 0.1);
+    --cor-preto-claro: #1e1d1d;
+    --cor-saturada: #1a1919;
+}
