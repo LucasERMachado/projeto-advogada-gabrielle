@@ -10,15 +10,6 @@ body {
     overflow-x: hidden;
     
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 4450px;
-    background-color: var(--cor-saturada);
-}
 span{
     text-transform: uppercase;
 }

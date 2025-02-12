@@ -51,9 +51,11 @@
 .tabela-expertise{
     display: flex;
     text-align: center;
+    justify-content: center;
     height: 300px;
     margin-top: 10px;
     width: 95%;
+    flex-wrap: wrap;
 }
 
 .tabela-expertise .cartao-tabela{
@@ -71,7 +73,10 @@
     justify-content: center;
     height: 100%;
     gap: 50px;
+}
 
+.cartao-tabela .linha-expertise{
+    margin-bottom: 20px;
 }
 
 .cartao-tabela .conteudo-cartao-expertise p{

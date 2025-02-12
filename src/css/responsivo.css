@@ -1,7 +1,6 @@
 @media (max-width: 390px){
 
     body{
-        min-height: 10000px;
         min-width: 100vh;
         margin: 0 auto;
     }
@@ -9,10 +8,9 @@
     .cabecalho{  
         justify-content: center;
         align-items: center;
-        height: 450px;
+        height: 350px;
         width: 100vh;
         margin: 0 auto;
-        background-color: coral;
     }
 
     .cabecalho .logo{
@@ -46,7 +44,7 @@
         margin: auto;
         width: 250px;
         text-align: center;
-        margin-right: 455px;
+        margin-right: 470px;
         margin-top: 30px;
         font-weight: 500;
     }
@@ -92,7 +90,7 @@
     } 
 
     .container{
-        width: 100vw;
+        width: 100%;
         align-items: center;
         justify-content: center;
         display: flex;
@@ -100,89 +98,103 @@
     }
 
     .container .apresentacao{
-        margin-left: 0;
-        margin-top: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 1100px;
         width: 100%;
-        background-color: brown;
     }
 
     .container .apresentacao .sobre{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-width: 100%;
-        margin-bottom: 20px;
+        width: 100%;
         height: 100%;
-        background-color: darkmagenta;
     }
     .container .apresentacao .foto{
         width: 300px;
         height: 500px;
-        margin-right: 500px;
-        margin-left: 0;
+        margin-right: 50%;
     }
     .container .apresentacao .conteudo-sobre{
-        margin-right: 100px;
+        align-content: center;
+        justify-content: center;
         width: 100%;
-        margin-right: 200px;
+        margin-right: 25%;
     }
 
     .container .apresentacao .conteudo-sobre span{
         margin-top: 30px;
         font-size: 1.5rem;
-        margin-left: 70px;
         width: 200px;
+        align-self: center;
+        margin-right: 45%;
     }
 
     .container .apresentacao .conteudo-sobre h2{
         font-size: 2.5rem;
-        margin-left: 50px;
         width: 250px;
+        align-self: center;
+        margin-right: 45%;
     }
     .apresentacao .conteudo-sobre .linha{
-        margin-left: 110px;
         width: 100px;
+        align-self: center;
+        margin-right: 50%;
     }
 
     .container .apresentacao .conteudo-sobre p{
+        text-align: left;
         font-size: 1.7rem;
-        margin-right: 300px;
+        letter-spacing: 1px;
+        line-height: 25px;
         width: 40%;
         font-weight: 400;
+        align-self: center;
+        margin-right: 50%;
     }
 
     .apresentacao .conteudo-sobre .botao-whatsapp{
-        width: 320px;
+        width: 300px;
         font-size: 1.5rem;
+        align-self: center;
+        margin-right: 50%;
     }
     .servicos{
-        position: static !important;
-        background-color: blueviolet;
-        height: 6700px;
-        justify-content: space-between;
-        
+        height: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .servicos .titulo-servicos{
+        margin-top: 50px;
         font-size: 2rem;
+        align-self: center;
+        margin-right: 50%;
     }
 
     .servicos .subtitulo-servicos{
         font-size: 2.5rem;
         margin-top: 15px;
+        align-self: center;
+        margin-right: 50%;
+        
     }
 
-    .servicos .linha-servicos{
-       width: 20px;
+    .servicos .linha-servico{
+       width: 100px;
+       margin-right: 50%;
+       height: 2px;
     }
     .servicos .container-servicos{
         height: 80%;
         flex-direction: column;
         gap: 650px;
-
         width: 100%;
         align-items: center;
+        justify-content: center;
+        margin-right: 54.2%;
     }
 
     .imagem-servico{
@@ -191,103 +203,130 @@
     }
 
     .descricao-geral{
-        width: 95%;
+        align-self: center;
+        width: 40%;
         height: 450px;
     }
 
     .servicos .container-servicos-baixo{
-        width: 105%;
+        width: 100%;
 
+    }
+
+    .servicos .descricao-servico-5, .descricao-servico-6, .descricao-servico-7, .descricao-servico-8{
+        width: 100%;
+    }
+
+    .lista-servico li{
+        font-size: 1.4rem;
+    }
+
+    .container-servicos-baixo .descricao-servico-7 li{
+        letter-spacing: 1px;
     }
 
     .servicos-2{
-        height: 50%;
+        margin-top: 580px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 650px;
-
         
     }
-    .servicos-2 .mais-servicos-container{
-        
+    .servicos-2 .mais-servicos-container{    
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 100%;
-        gap: 100px;
+        margin-top: 50px;
         
     }
 
+    .mais-servicos-container{
+        margin-right: 55%;
+    }
+
+    .descricao-servico-12{
+        margin-bottom: 100px;
+    }
+    
     .expertise{
         flex-direction: column;
-        height: 1630px;
         width: 100%;
-    }
-
-    .servicos-inclusos{
-        margin-top: 50px;
+        margin-top: 0;
+        height: 1550px;
     }
     
     .minha-expertise{
+        width: 100%;
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: center;       
         
     }
     .conteudo-expertise{
-        margin-top: 50px;
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        height: 80%;
     }
     
     .conteudo-expertise span{
+        margin-top: 20px;
         font-size: 2rem;
+        margin-right: 55%;    
     }
     
     .conteudo-expertise p{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         line-height: 30px;
-        width: 90%;
+        width: 40%;
         letter-spacing: 1px;
+        margin-right: 50%;
+        text-align: left;
     }
     
     .conteudo-expertise h2{
         font-size: 3rem;
+        margin-right: 55%;
     }
     
     .tabela-expertise{
+        flex-direction: column;
         width: 100%;
+        height: 1000px;
+        flex-wrap: nowrap;
     }
     
     .tabela-expertise .cartao-tabela{
         flex-direction: column;
-        width: 90%;    
-        margin-left: 20px;
+        width: 40%;    
+        height: 100%;
+        margin-left: 3%;
+    }
+    .linha-divisao{
+        margin-right: 55%;
     }
     
     .cartao-tabela .conteudo-cartao-expertise{
-        border: 1px solid #FFD700;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 95%;
-        gap: 50px;
-    
-    }
-
-    .cartao-tabela .conteudo-cartao-expertise .linha-expertise{
-        margin-bottom: 30px;
+  
     }
     
     .cartao-tabela .conteudo-cartao-expertise p{
         font-size: 2rem;
+        text-align: center;
+        margin-left: 50%;
+        width: 90%;
+        letter-spacing: 1px;
     }
     
     .descricao-familia .item-familia{
@@ -295,19 +334,20 @@
     }
     
     .btn-expertise{
-        margin-top: 700px;
-        width: 90%;
+        width: 40%;
+        margin-top: 20px;
+        margin-left: 3%;
     }
 
     .explicacao{
-        height: 1650px;
+        height: 1550px;
     }
     
     
     .explicacao span{
         font-size: 2rem;
-        color: var(--cor-dourada);
         margin-bottom: 20px;
+        margin-right: 55%;
     }
     
     .explicacao h2{
@@ -316,19 +356,21 @@
         text-transform: uppercase;
         margin-bottom: 20px;
         font-weight: 700;
+        margin-right: 55%;
     }
     
     .container-como-trabalho{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: 80%;
-        gap: 30px;
+        height: 100%;
+        gap: 20px;
     }
     
     .container-como-trabalho .quadrado-explicacao{
-        width: 95%;
+        width: 43%;
         height: 400px;  
+        margin-right: 55%;
     }
 
     .fale-comigo{
@@ -351,6 +393,7 @@
     
     .container-footer .contato{
         flex-direction: column;
+        width: 100%;
     }
     
     .container-footer .contato .foto-footer{
@@ -383,54 +426,48 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 110%;
+        width: 105%;
         margin-top: 5%;
-        height: 110%;
-        background-color: blueviolet;
+        height: 100%;
     }
     
     .container-footer .contato .localizacao .escritorio{
         font-size: 2rem;
-        margin-left: 240px ;
+        margin-left: 240px;
         width: 100%;
     }
 
-    .localizacao .horario-atendimento{
-        margin-right: 370px;
-        font-size: 1rem;
-    }
-
-    .localizacao span{
-        font-size: 1rem;
+    .fale-comigo .localizacao .horario-atendimento{
+        margin-right: 50%;
+        font-size: 0.5rem;
     }
   
     .container-footer .contato .linha{
         margin-bottom: 20px;
-        margin-right: 450px;
+        margin-right: 50%;
         width: 100px;
         
     }
     
     .contato .localizacao .maps{
         height: 100%;
-        width: 300px;
+        width: 40%;
         border-radius: 15px;
-        margin-right: 400px;
+        align-self: center;
+        margin-right: 50%;
     }
     
     .direitos-autorais{
         height: 100px;
         width: 100%;
-        background-color: aquamarine;
     }
     
     .direitos-autorais p{
-        font-size: 1.3rem;
-        width: 40%;
+        font-size: 1.2rem;
         text-align: center;
-        margin-right: 420px;
+        margin-right: 54%;
         align-self: center;
-        
+        flex-wrap: wrap;
     }
 
 }
